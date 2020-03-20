@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03d61a8d-5f9e-4d58-ac0d-cdbe001a79e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hangars.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hangars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/lightslider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/lightslider.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/line-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/line-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/spacing.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/spacing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme-plugin.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/theme-plugin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/themify-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/css/themify-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/la-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/fonts/la-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/la-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/fonts/la-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/themify.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/fonts/themify.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/2480453-01 1 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/2480453-01 1 (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/2480453-01 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/2480453-01 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/8d463adf13f91cf161e22af1332405f4_download-computer-neon-instagram-icons-hd-image-free-png-hq-png-_3091-3086 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/8d463adf13f91cf161e22af1332405f4_download-computer-neon-instagram-icons-hd-image-free-png-hq-png-_3091-3086 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/Facebook_icon_2013 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/Facebook_icon_2013 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/NIK_4622 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/NIK_4622 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/Rectangle 32.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/Rectangle 32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/logo_NG 1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/logo_NG 1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/logo_NG-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/logo_NG-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/phone 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/phone 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/photo_2019-10-24_22-32-15 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/photo_2019-10-24_22-32-15 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/photo_2019-10-24_22-32-18 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/photo_2019-10-24_22-32-18 1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/photo_2019-12-25_15-53-49 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/photo_2019-12-25_15-53-49 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images GreenHaus/photo_2019-12-25_15-53-53 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images GreenHaus/photo_2019-12-25_15-53-53 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/about/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/about/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/about/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/bg/03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/blog/01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/blog/02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/blog/03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg/01.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/svg/01.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg/02.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/svg/02.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg/03.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/svg/03.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/testimonial/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/testimonial/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/testimonial/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/testimonial/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/testimonial/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/images/testimonial/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/js/theme-plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/theme-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets1/js/theme-script.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="67" column="83" selection-start-line="67" selection-start-column="83" selection-end-line="67" selection-end-column="83" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/theme.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="468" column="19" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/theme-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="245" column="53" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="53" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#114#121#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bg-dark</find>
+      <find>rounded</find>
+      <find>dark</find>
+      <find>part</find>
+      <find>particl</find>
+      <find>primary</find>
+      <find>fixed-header</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Hangars.html" />
+        <option value="$PROJECT_DIR$/assets/js/theme-script.js" />
+        <option value="$PROJECT_DIR$/assets/css/theme.min.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/NomadGreenHouse.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
+    <option name="height" value="811" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NomadGreenHouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NomadGreenHouse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NomadGreenHouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NomadGreenHouse" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NomadGreenHouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NomadGreenHouse" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NomadGreenHouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NomadGreenHouse" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="svg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NomadGreenHouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NomadGreenHouse" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/svg" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03d61a8d-5f9e-4d58-ac0d-cdbe001a79e4" name="Default Changelist" comment="" />
+      <created>1584684199214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584684199214</updated>
+      <workItem from="1584684200833" duration="13200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13200000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="25" width="1400" height="811" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32859176" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Hangars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/about/05.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/bg/02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/bg/01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/line-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/bg/03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme-plugin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/theme-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="245" column="53" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#114#121#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="468" column="19" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="67" column="83" selection-start-line="67" selection-start-column="83" selection-end-line="67" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

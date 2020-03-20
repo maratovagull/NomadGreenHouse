@@ -243,7 +243,6 @@ function fxheader() {
   $(window).on('scroll', function () {
     if ($(window).scrollTop() >= 300) {
       $('#header-wrap').addClass('fixed-header');
-      $("#header-wrap.nav-link").css('color',"#393939")
     } else {
       $('#header-wrap').removeClass('fixed-header');
     }
@@ -482,7 +481,7 @@ function particles() {
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#1360ef",
+      "color": "#000080",
       "opacity": 0.4,
       "width": 1
     },
@@ -506,11 +505,11 @@ function particles() {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "bubble"
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "resize": true
     },
