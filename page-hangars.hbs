@@ -1,0 +1,161 @@
+{{!< default}}
+
+<section class="position-relative" style="margin-top:90px">
+    <div class="container-fluid">
+        <div class="row justify-content-between align-items-start">
+            <div class="col-md-6 px-0">
+                <div class="position-relative bg-primary px-5 py-3">
+                    <div id="particles-js" class="z-index-1"><canvas class="particles-js-canvas-el" width="1000" height="200" style="width: 100%; height: 100%;"></canvas></div>
+                    <h4>Мы строим</h4>
+                    <h3 class="font-w-8">АНГАРЫ ПОД РАЗЛИЧНЫЕ ЗАДАЧИ</h3>
+                </div>
+
+                <p class="lead pt-5 px-6 text-dark">
+                    Ангар сборно-разборный изготовленный из оцинкованной стали толщиной 1,2 мм. Устойчивость ангара к воздействию ветровых нагрузок равна 60 м/с, снеговых нагрузок до 300 кг/м2, сейсмостойкость до 9 баллов. Такая надежность обеспеченна особенностью сборки ангара, который состоит из малых пирамид, равномерно распределяющих нагрузку по всей конструкции. Во-вторых — острым углом на крыше строения не дающим накапливаться снегу и помогающий избежать высокой нагрузки на верхний участок строения.
+                </p>
+                <div class="text-center">
+                    <button class="btn btn-outline-light text-uppercase font-w-8" style="color:#73A310;border: 4px solid #73A310;border-radius: 20px;">Рассчитать стоимость</button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img src="{{asset "images/bg/04.png"}}" alt="Image" class="figure-img">
+            </div>
+        </div>
+        <!-- / .row -->
+    </div>
+    <!-- / .container -->
+</section>
+
+<section class="bg-primary">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-6">
+                <img src="{{asset "images/bg/05.png"}}" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5 mb-8 mb-lg-0">
+                <div class="d-flex justify-content-between mb-5">
+                    <div>
+                        <h3 class="mt-3 font-w-8 mb-3">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ ИЛИ ПРОСЧЕТ - ЭТО БЕСПЛАТНО! </h3>
+
+                        <h6 class="font-w-6">ОСТАВЬТЕ ЗАЯВКУ!</h6>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <form id="contact-form" method="post" action="php/contact.php" novalidate="true">
+                        <div class="messages"></div>
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Name is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone" required="required" data-error="Phone is required">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn btn-dark btn-block text-uppercase"><span>Мы Вам перезвоним</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="position-relative" style="padding-bottom: 120px">
+    <div class="container-fluid pl-0">
+        <img src="{{asset "images/bg/mesh.png"}}" alt="Image" class="position-absolute bottom-0 right-0" style="max-height: 100%;">
+        <div class="bg-primary d-inline-block px-10">
+            <h2 class="my-4 font-weight-bold">Контакты</h2>
+        </div>
+        <div class="row justify-content-start text-center">
+            <div class="col-12 col-sm-7 row ">
+
+                <div class="col-md-6">
+                    <div>
+                        <h4 class="mt-5">Главный офис:</h4>
+                        <span class="text-black">Бишкек, ул. Уметалиева 98</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <h4 class="mt-5">Часы работы:</h4>
+                        <span class="text-black">Пн-Пт, с 9:00 до 18:00</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <h4 class="mt-5">Телефон для связи:</h4>
+                        <span class="text-black">0 220 886 618</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shape-1 bottom" style="height: 100px; overflow: hidden;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <polygon class="svg--sm" fill="#393939" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"></polygon>
+            <polygon class="svg--lg" fill="#393939" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100"></polygon>
+        </svg>
+    </div>
+</section>
+
+<footer class="py-8 bg-dark position-relative">
+    <div class="container mt-11">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-5 col-xl-4 mr-auto mb-6 mb-lg-0">
+                <div class="subscribe-form bg-warning-soft p-5 rounded">
+                    <h5 class="mb-4 text-white">Контакты</h5>
+                    <ul class="list-unstyled text-white">
+                        <li><h5><i class="las la-phone-volume"></i> <strong>Телефон:</strong> 0 220 886 618</h5></li>
+                        <li><h5><i class="las la-map-marked-alt"></i> <strong>Главный офис:</strong> Бишкек, Уметалиева 98</h5></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5">
+                <div class="row">
+                    <div class="col-12 col-sm-6 navbar-dark">
+                        <ul class="navbar-nav list-unstyled mb-0">
+                            <li class="mb-3 nav-item"><a class="nav-link" href="about-us-1.html">О нас</a>
+                            </li>
+                            <li class="mb-3  nav-item"><a class="nav-link" href="product-grid.html">Ангары</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">Отзывы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-6 mt-sm-0 navbar-dark">
+                        <ul class="navbar-nav list-unstyled mb-0">
+                            <li class="mb-3 nav-item"><a class="nav-link" href="blog-card.html">Блог</a>
+                            </li>
+                            <li class="mb-3 nav-item"><a class="nav-link" href="contact-us.html">Видео</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact-us.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-6">
+                        <a class="footer-logo text-white h2 mb-0" href="/">
+                            <img src="{{asset "images/svg/logo-white.png"}}" height="80px">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-6 mt-sm-0">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a class="text-light ic-2x" href="#"><i class="la la-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a class="text-light ic-2x" href="#"><i class="la la-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-white text-center mt-2">
+            <div class="col">
+                <hr class="mb-8">made with <i class="las la-heart"></i> by <a class="text-white" href="https://makers.kg" target="_blank">makers</a></div>
+        </div>
+    </div>
+</footer>
