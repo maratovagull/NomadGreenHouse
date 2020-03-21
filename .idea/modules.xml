@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/NomadGreenHouse.iml" filepath="$PROJECT_DIR$/.idea/NomadGreenHouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ng.iml" filepath="$PROJECT_DIR$/.idea/ng.iml" />
     </modules>
   </component>
 </project>
