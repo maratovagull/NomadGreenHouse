@@ -2,7 +2,7 @@
 
 {{!-- Everything inside the #post tags pulls data from the post --}}
 <section class="position-relative bg-primary" style="margin-top:90px">
-    <div id="particles-js" class="z-index-1"><canvas class="particles-js-canvas-el" width="2842" height="504" style="width: 100%; height: 100%;"></canvas></div>
+    <div id="particles-js"><canvas class="particles-js-canvas-el" width="2842" height="504" style="width: 100%; height: 100%;"></canvas></div>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -64,11 +64,11 @@
                     <form id="contact-form" method="post" action="php/contact.php" novalidate="true">
                         <div class="messages"></div>
                         <div class="form-group">
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Name is required.">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Имя" required="required" data-error="Имя обязательно.">
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone" required="required" data-error="Phone is required">
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Телефон" required="required" data-error="Телефон обязателен">
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="text-center mt-4">
