@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f99e4ac-4630-42b6-8791-6465f4022c49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/home.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page-about.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page-contact.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-hangars.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page-hangars.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-testimonials.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page-testimonials.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-videoblog.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page-videoblog.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/post.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="1698">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-contact.hbs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page-videoblog.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="27" column="197" selection-start-line="27" selection-start-column="197" selection-end-line="27" selection-end-column="197" />
+            <state relative-caret-position="182">
+              <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+              <folding>
+                <element signature="e#62#85#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/default.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="20" />
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -63,14 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/modal.hbs">
+        <entry file="file://$PROJECT_DIR$/page-about.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1402">
-              <caret line="60" column="92" selection-start-line="60" selection-start-column="92" selection-end-line="60" selection-end-column="92" />
-              <folding>
-                <element signature="e#510#517#1#HTML" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="185">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -89,6 +82,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>#f94f15</find>
+      <find>dark</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,11 +106,11 @@
         <option value="$PROJECT_DIR$/assets/css/theme.min.css" />
         <option value="$PROJECT_DIR$/post.hbs" />
         <option value="$PROJECT_DIR$/page-testimonials.hbs" />
-        <option value="$PROJECT_DIR$/page-videoblog.hbs" />
         <option value="$PROJECT_DIR$/page-about.hbs" />
         <option value="$PROJECT_DIR$/index.hbs" />
         <option value="$PROJECT_DIR$/page-contact.hbs" />
         <option value="$PROJECT_DIR$/home.hbs" />
+        <option value="$PROJECT_DIR$/page-videoblog.hbs" />
       </list>
     </option>
   </component>
@@ -138,16 +132,6 @@
             <path>
               <item name="ng" type="b2602c69:ProjectViewProjectNode" />
               <item name="ng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ng" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ng" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,12 +175,12 @@
       <updated>1584772198318</updated>
       <workItem from="1584772200199" duration="84000" />
       <workItem from="1584772323823" duration="16033000" />
-      <workItem from="1584899014445" duration="15861000" />
+      <workItem from="1584899014445" duration="18009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31978000" />
+    <option name="totallyTimeSpent" value="34126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1403" height="814" extended-state="0" />
@@ -219,7 +203,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26062322" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26062322" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -334,17 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/modal.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1402">
-          <caret line="60" column="92" selection-start-line="60" selection-start-column="92" selection-end-line="60" selection-end-column="92" />
-          <folding>
-            <element signature="e#510#517#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-hangars.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -369,31 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-videoblog.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-about.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/theme-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="584" column="20" selection-start-line="584" selection-start-column="20" selection-end-line="584" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#114#121#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -415,24 +363,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/default.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page-contact.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
+        <state relative-caret-position="-524">
           <caret line="27" column="197" selection-start-line="27" selection-start-column="197" selection-end-line="27" selection-end-column="197" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default.hbs">
+    <entry file="file://$PROJECT_DIR$/partials/modal.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="-1402">
+          <caret line="60" column="92" selection-start-line="60" selection-start-column="92" selection-end-line="60" selection-end-column="92" />
+          <folding>
+            <element signature="e#510#517#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/theme-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="584" column="20" selection-start-line="584" selection-start-column="20" selection-end-line="584" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#114#121#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/feature-team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="557" column="10" lean-forward="true" selection-start-line="439" selection-end-line="557" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="1698">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-about.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-videoblog.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding>
+            <element signature="e#62#85#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
