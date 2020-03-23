@@ -499,3 +499,253 @@ ins:after {
 	}
 }
 
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Dec 7, 2018, 2:45:22 PM
+    Author     : Jaime.Vaca
+*/
+
+.wizard .nav-tabs {
+	position: relative;
+	margin: 40px auto;
+	margin-bottom: 0;
+}
+.wizard > div.wizard-inner {
+	position: relative;
+}
+.connecting-line {
+	height: 2px;
+	background: #e0e0e0;
+	position: absolute;
+	width: 80%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 50%;
+	z-index: 1;
+}
+.wizard .nav-tabs > li.active > a,
+.wizard .nav-tabs > li.active > a:hover,
+.wizard .nav-tabs > li.active > a:focus {
+	color: #555555;
+	cursor: default;
+	border: 0;
+	border-bottom-color: transparent;
+}
+span.round-tab {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: inline-block;
+	border-radius: 100px;
+	background: #fff;
+	border: 2px solid #e0e0e0;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	font-size: 25px;
+}
+span.round-tab i {
+	color: #555555;
+}
+.wizard li a.active span.round-tab {
+	background: #fff;
+	border: 2px solid #5bc0de;
+}
+.wizard li a.active span.round-tab i {
+	color: #5bc0de;
+}
+span.round-tab:hover {
+	color: #333;
+	border: 2px solid #333;
+}
+
+@media only screen and (max-width: 767px) {
+	.wizard .nav-tabs > li {
+		width: 19%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.wizard .nav-tabs > li {
+		width: 100%;
+	}
+}
+
+.wizard li a:after {
+	content: " ";
+	position: relative;
+	left: 46%;
+	top: -20px;
+	opacity: 0;
+	margin: 0 auto;
+	bottom: 0px;
+	border: 5px solid transparent;
+	border-bottom-color: #5bc0de;
+	transition: 0.1s ease-in-out;
+}
+.wizard li.active.nav-item:after {
+	content: " ";
+	position: relative;
+	left: 46%;
+	top: -20px;
+	opacity: 1;
+	margin: 0 auto;
+	bottom: 0px;
+	border: 10px solid transparent;
+	border-bottom-color: #5bc0de;
+}
+
+@media only screen and (max-width: 767px) {
+	.wizard .nav-tabs > li a {
+		width: 70px;
+		height: 70px;
+		margin: 20px auto;
+		border-radius: 100%;
+		padding: 0;
+		position: relative;
+	}
+	.wizard .nav-tabs > li a:hover {
+		background: transparent;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.wizard .nav-tabs > li a {
+		margin: 10px auto;
+		position: relative;
+	}
+	.wizard .nav-tabs > li a:hover {
+
+	}
+}
+
+.wizard .tab-pane {
+	position: relative;
+	padding-top: 50px;
+}
+.wizard h3 {
+	margin-top: 0;
+}
+@media( max-width: 585px) {
+	.wizard {
+		width: 90%;
+		height: auto !important;
+	}
+	span.round-tab {
+		font-size: 16px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.wizard .nav-tabs > li a {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.wizard li.active:after {
+		content: " ";
+		position: absolute;
+		left: 35%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.esconder_movil_mostrar_escritorio{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.esconder_escritorio_mostrar_movil{
+		display: none;
+	}
+}
+
+
+@keyframes checkmarkOutline {
+	0% {
+		transform: scale(0.3);
+		opacity: 0;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+@keyframes checkmark {
+	0% {
+		width: 0;
+		height: 0;
+		opacity: 0;
+		border-width: 0;
+	}
+	49.9% {
+		border-width: 0;
+	}
+	50% {
+		width: 0;
+		height: 0;
+		opacity: 1;
+		border-width: 7px;
+	}
+	75% {
+		width: 25px;
+		height: 0;
+		opacity: 1;
+		border-width: 7px;
+	}
+	100% {
+		width: 25px;
+		height: 50px;
+		opacity: 1;
+		border-width: 7px;
+	}
+}
+@keyframes pop {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.11);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.checkmark-container {
+	animation: pop 0.3s ease-in-out 1.2s forwards;
+}
+
+.checkmark-outline {
+	animation: checkmarkOutline 0.5s cubic-bezier(0.34, 0.02, 0.45, 1.47) forwards;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 4px solid #6EEB83;
+	margin: auto;
+	position: relative;
+}
+
+.checkmark {
+	animation: checkmark 1.1s ease-in-out forwards;
+	height: 50px;
+	width: 25px;
+	border-bottom: 7px solid #6EEB83;
+	border-right: 7px solid #6EEB83;
+	transform-origin: left bottom;
+	position: absolute;
+	bottom: 35%;
+	left: 20%;
+	transform: rotate(45deg);
+}
+
