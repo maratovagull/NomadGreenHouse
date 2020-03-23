@@ -1,0 +1,11 @@
+<nav >
+    <ul class="pagination">
+        {{#if prev}}
+            <li class="page-item mr-auto""><a class="page-link" href="{{page_url prev}}">Previous</a></li>
+        {{/if}}
+        <li class="page-item">{{page}} of {{pages}}</li>
+        {{#if next}}
+            <li class="page-item ml-auto"><a class="page-link" href="{{page_url next}}">Next</a></li>
+        {{/if}}
+    </ul>
+</nav>

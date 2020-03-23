@@ -1,40 +1,143 @@
 {{!< default}}
 
 {{!-- Everything inside the #post tags pulls data from the post --}}
-{{#post}}
-
-    <main id="site-main" class="container">
-        <div class="inner">
-
-            <article class="{{post_class}} {{#unless feature_image}}no-image{{/unless}}">
-
-                <h1 class="text-center">{{title}}</h1>
-
-                {{!-- Displays the featured image if exists --}}
-                {{#if feature_image}}
-                    <figure>
-                        <img src="{{img_url feature_image}}" alt="{{title}}" class="img-fluid"/>
-                    </figure>
-                {{/if}}
-
-                <section>
-
-                    <section>
-                        <time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMMM YYYY"}}</time>
-                        {{#primary_tag}}
-                            <span>/</span> <a href="{{url}}">{{name}}</a>
-                        {{/primary_tag}}
-                    </section>
-
-                    <div class="post-content">
-                        {{!-- Display the post content --}}
-                        {{content}}
-                    </div>
-                </section>
-
-            </article>
-
+<section class="position-relative bg-primary" style="margin-top:90px">
+    <div id="particles-js" class="z-index-1"><canvas class="particles-js-canvas-el" width="2842" height="504" style="width: 100%; height: 100%;"></canvas></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="font-w-8">Статьи</h1>
+            </div>
         </div>
-    </main>
+        <!-- / .row -->
+    </div>
+    <!-- / .container -->
+</section>
 
-{{/post}}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Blog Card -->
+            {{#post}}
+                <article class="{{post_class}} {{#unless feature_image}}no-image{{/unless}}">
+                    <div class="card border-0 bg-transparent">
+                        <h2 class="font-weight-bold my-3">
+                            {{title}}
+                        </h2>
+                        {{!-- Displays the featured image if exists --}}
+                        {{#if feature_image}}
+                            <figure>
+                                <img class="card-img-top shadow rounded" src="{{img_url feature_image}}" alt="{{title}}" alt="Image">
+                            </figure>
+                        {{/if}}
+
+                        <div class="card-body pt-5 px-0">
+                            {{!-- Display the post content --}}
+                            {{content}}
+                        </div>
+
+                    </div>
+
+                </article>
+            {{/post}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-primary">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-6">
+                <img src="{{asset "images/bg/05.png"}}" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5 mb-8 mb-lg-0">
+                <div class="d-flex justify-content-between mb-5">
+                    <div>
+                        <h3 class="mt-3 font-w-8 mb-3">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ ИЛИ ПРОСЧЕТ - ЭТО БЕСПЛАТНО! </h3>
+
+                        <h6 class="font-w-6">ОСТАВЬТЕ ЗАЯВКУ!</h6>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <form id="contact-form" method="post" action="php/contact.php" novalidate="true">
+                        <div class="messages"></div>
+                        <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required" data-error="Name is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone" required="required" data-error="Phone is required">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn btn-dark btn-block text-uppercase"><span>Мы Вам перезвоним</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="py-8 bg-dark position-relative">
+    <div class="container mt-11">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-5 col-xl-4 mr-auto mb-6 mb-lg-0">
+                <div class="subscribe-form bg-warning-soft p-5 rounded">
+                    <h5 class="mb-4 text-white">Контакты</h5>
+                    <ul class="list-unstyled text-white">
+                        <li><h5><i class="las la-phone-volume"></i> <strong>Телефон:</strong> 0 220 886 618</h5></li>
+                        <li><h5><i class="las la-map-marked-alt"></i> <strong>Главный офис:</strong> Бишкек, Уметалиева 98</h5></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-5">
+                <div class="row">
+                    <div class="col-12 col-sm-6 navbar-dark">
+                        <ul class="navbar-nav list-unstyled mb-0">
+                            <li class="mb-3 nav-item"><a class="nav-link" href="about-us-1.html">О нас</a>
+                            </li>
+                            <li class="mb-3  nav-item"><a class="nav-link" href="product-grid.html">Ангары</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">Отзывы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-6 mt-sm-0 navbar-dark">
+                        <ul class="navbar-nav list-unstyled mb-0">
+                            <li class="mb-3 nav-item"><a class="nav-link" href="blog-card.html">Блог</a>
+                            </li>
+                            <li class="mb-3 nav-item"><a class="nav-link" href="contact-us.html">Видео</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact-us.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-6">
+                        <a class="footer-logo text-white h2 mb-0" href="/">
+                            <img src="{{asset "images/svg/logo-white.png"}}" height="80px">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 mt-6 mt-sm-0">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a class="text-light ic-2x" href="#"><i class="la la-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a class="text-light ic-2x" href="#"><i class="la la-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-white text-center mt-2">
+            <div class="col">
+                <hr class="mb-8">made with <i class="las la-heart"></i> by <a class="text-white" href="https://makers.kg" target="_blank">makers</a></div>
+        </div>
+    </div>
+</footer>
