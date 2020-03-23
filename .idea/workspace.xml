@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f99e4ac-4630-42b6-8791-6465f4022c49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/page-videoblog.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/team/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/team/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/team/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/team/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page-about.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-testimonials.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +34,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page-about.hbs">
+        <entry file="file://$PROJECT_DIR$/page-testimonials.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="196">
+              <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+              <folding>
+                <element signature="e#841#874#0#HTML" expanded="true" />
+                <element signature="e#4730#4763#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/page-hangars.hbs" />
         <option value="$PROJECT_DIR$/page-videoblog.hbs" />
         <option value="$PROJECT_DIR$/page-about.hbs" />
+        <option value="$PROJECT_DIR$/page-testimonials.hbs" />
       </list>
     </option>
   </component>
@@ -158,12 +158,12 @@
       <updated>1584772198318</updated>
       <workItem from="1584772200199" duration="84000" />
       <workItem from="1584772323823" duration="16033000" />
-      <workItem from="1584899014445" duration="3949000" />
+      <workItem from="1584899014445" duration="5406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20066000" />
+    <option name="totallyTimeSpent" value="21523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1403" height="814" extended-state="0" />
@@ -284,13 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-contact.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="59" column="40" selection-end-line="68" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -336,13 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-hangars.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="71" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/portfolio-single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
@@ -350,10 +336,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page-contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-hangars.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page-about.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="995">
+          <caret line="82" column="14" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="82" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-testimonials.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+          <folding>
+            <element signature="e#841#874#0#HTML" expanded="true" />
+            <element signature="e#4730#4763#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
