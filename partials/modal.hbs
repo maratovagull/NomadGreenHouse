@@ -12,7 +12,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <form class="form cf">
+                            <form class="form cf" method="post" target="hidden_iframe"  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf7jtAnERSwmaSRe4zuf7L3bLjvXRoYJOQy9snNzDsFmN89KA/formResponse">
+                                <iframe name="hidden_iframe" class="d-none"></iframe>
                                 <div class="wizard">
                                     <div class="wizard-inner esconder_escritorio_mostrar_movil">
                                         <div class="connecting-line"></div>
@@ -70,41 +71,57 @@
                                                     <div class="tab-pane active text-center" role="tabpanel" id="step1">
                                                         <h4 class="text-md-center font-weight-bold">Шаг 1: Рассчитать стоимость</h4>
                                                         <div class="container">
-                                                            <div class="input-group mb-3">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="basic-addon1">Ширина</span>
+                                                            <div class="row">
+                                                                <div class="input-group mb-3 col-md-6">
+                                                                    <div class="input-group-prepend">
+                                                                        <span class="input-group-text">Ширина</span>
+                                                                    </div>
+                                                                    <select class="form-control size_" id="width_" name="entry.373779458" >
+                                                                        <option>9.6</option>
+                                                                        <option>11.5</option>
+                                                                    </select>
+                                                                    <div class="input-group-append">
+                                                                        <span class="input-group-text">м</span>
+                                                                    </div>
                                                                 </div>
-                                                                <select class="form-control" id="exampleFormControlSelect1">
-                                                                    <option>9.6</option>
-                                                                    <option>11.5</option>
-                                                                </select>
-                                                                <div class="input-group-append">
-                                                                    <span class="input-group-text">метров</span>
+
+                                                                <div class="input-group mb-3 col-md-6">
+                                                                    <div class="input-group-prepend">
+                                                                        <span class="input-group-text">Длина</span>
+                                                                    </div>
+                                                                    <input name="entry.378818788" class=" size_ form-control" id="length_" type="number" min="0">
+                                                                    <div class="input-group-append">
+                                                                        <span class="input-group-text">м</span>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="form-check form-check-inline">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                                                <label class="mb-0" for="inlineCheckbox1">Торец</label>
-                                                            </div>
-                                                            <div class="form-check form-check-inline">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                                                <label class="mb-0" for="inlineCheckbox2">Дверь</label>
-                                                            </div>
-                                                            <div class="form-check form-check-inline">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                                                <label class="mb-0" for="inlineCheckbox3">Купол (тамбур)</label>
+
+                                                                <div class="col-md-12" id="opts">
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input size_" type="checkbox" id="inlineCheckbox1" name="entry.342741276" >
+                                                                        <label class="mb-0" for="inlineCheckbox1">Торец</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input size_" type="checkbox" id="inlineCheckbox2" name="entry.1543196956" >
+                                                                        <label class="mb-0" for="inlineCheckbox2">Дверь</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input size_" type="checkbox" id="inlineCheckbox3" name="entry.545422124" >
+                                                                        <label class="mb-0" for="inlineCheckbox3">Купол (тамбур)</label>
+                                                                    </div>
+
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input size_" type="checkbox" id="inlineCheckbox4" name="entry.1406200989" >
+                                                                        <label class="mb-0" for="inlineCheckbox4">Форточка</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input size_" type="checkbox" id="inlineCheckbox5" name="entry.1848653673" >
+                                                                        <label class="mb-0" for="inlineCheckbox5">Покрытие</label>
+                                                                    </div>
+                                                                </div>
                                                             </div>
 
-                                                            <div class="form-check form-check-inline">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                                                                <label class="mb-0" for="inlineCheckbox4">Форточка</label>
-                                                            </div>
-                                                            <div class="form-check form-check-inline">
-                                                                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-                                                                <label class="mb-0" for="inlineCheckbox5">Покрытие</label>
-                                                            </div>
                                                             <hr>
-                                                            <h6 class="font-weight-bold"> Примерная стоимость: <span class="text-success" id="calc_result">$0</span></h6>
+                                                            <h3 class="font-weight-bold"> Примерная стоимость: $<span class="text-success" id="calc_result">0</span></h3>
                                                         </div>
                                                         <ul class="list-inline text-md-center mt-4">
                                                             <li><button type="button" class="btn btn-dark next-step next-button">ОФОРМИТЬ ЗАЯВКУ <i class="font-weight-bold las la-arrow-right"></i></button></li>
@@ -116,16 +133,16 @@
                                                             <div class="container">
                                                                 <div class="form-group">
                                                                     <label for="phone">Телефон</label>
-                                                                    <input type="number" class="form-control" id="phone" placeholder="Телефон" required>
+                                                                    <input type="number" class="form-control" id="phone" name="entry.482443987" placeholder="Телефон" required>
                                                                 </div>
                                                                 <div class="form-group">
                                                                     <label for="name">Ваше имя</label>
-                                                                    <input type="text" class="form-control" id="name" placeholder="Ваше имя" required>
+                                                                    <input type="text" class="form-control" name="entry.607120010" id="name" placeholder="Ваше имя" required>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <ul class="list-inline text-md-center">
-                                                            <li><button type="button" class="btn btn-primary next-step next-button text-uppercase">Отправить <i class="las la-paper-plane"></i></button></li>
+                                                            <li><button type="submit" class="btn btn-primary next-step next-button text-uppercase">Отправить <i class="las la-paper-plane"></i></button></li>
                                                         </ul>
                                                     </div>
                                                     <div class="tab-pane" role="tabpanel" id="step3">

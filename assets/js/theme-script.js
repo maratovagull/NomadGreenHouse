@@ -580,6 +580,19 @@ $(window).on('load', function() {
     wowanimation();
 });
 
+function calculatePrice(l, w, opts) {
+    var price = Math.ceil(parseFloat(l) * parseFloat(w) * 55);
+
+    opts.find(".form-check-input").each(function(){
+        if ($(this).prop('checked')=== true){
+            price += 100
+        }
+    });
+
+    return price;
+}
+
+
 
 $(document).ready(function(){
     $('.nav-tabs > li a[title]').tooltip();
@@ -613,5 +626,19 @@ $(document).ready(function(){
 
     });
 
+    /*----- Subscription Form ----- */
+    $('.subscribe-form').on('submit', function(e) {
+        var alert = '<div class="alert alert-success alert-dismissible fade show" role="alert">' +
+            'Спасибо! Ваше сообщение отправлено!' +
+            '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
+            '<span aria-hidden="true">×</span></button>' + '</div>';
 
+        $(".submit-button").prop('disabled', true).text('Отправлено').blur();
+        $(".submit-response").html(alert);
+        // $("#response5").prev().find( "input.mail").val("");
+    });
+
+    $(".size_").change(function() {
+        $("#calc_result").text(calculatePrice($("#length_").val(), $("#width_").val(), $("#opts")));
+    });
 })
